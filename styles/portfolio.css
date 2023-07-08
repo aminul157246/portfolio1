@@ -211,6 +211,7 @@ text-align: center;
 .column-container{
     display: flex;
     gap: 50px; margin: 0px 200px;
+   
     
 }
 .university, .description{
@@ -232,4 +233,23 @@ text-align: center;
 }
 .cv{
     text-align: center;
+}
+.main-footer{
+
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+    padding: 130px 230px; background-color: bisque;
+}
+.contact input[type="text"] , .contact input[type="email"], textarea  {
+
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.btn-primary{
+
+
+
 }
